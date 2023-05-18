@@ -1,0 +1,971 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: PressAnyKey
+      TermType: 0
+      Description: 
+      Languages:
+      - Press any key to start
+      - Pulsa cualquier tecla para jugar
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line0_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - <style=Success>I'm done, sir</style>
+      - "<style=Success>Ya he terminado, se\xF1or</style>"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line10_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Distribute what you have collected this morning, you know where it is.
+
+        Oh!
+        And take this Chatbot Headquarters <style="Item">Access Card</style>.'
+      - "Reparte lo que has recogido esta ma\xF1ana, ya sabes d\xF3nde est\xE1.\n\xA1Ah!
+        Y toma esta <style=\"Item\">Tarjeta de Acceso</style> de la Oficina Central
+        de Chatbot."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line11_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes, sir.
+      - "S\xED, se\xF1or."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line1_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Let''s see... mmm...
+
+        ...
+
+        ALEEEEEEEX!!!
+
+        You are
+        missing a signature!!!!'
+      - "Veamos...\n...\n\xA1\xA1\xA1ALEEEEEEEX!!!\n\xA1\xA1\xA1\xA1Te falta una
+        firma!!!!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line2_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - If I tell him what happened to me...
+      - Si le cuento lo que me ha pasado...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line3_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - I DON'T WANT EXCUSES!!!
+      - "\xA1\xA1\xA1NO QUIERO EXCUSAAAAS!!!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line5_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - I'm sorry, sir. Do you want me to come back for...?
+      - "Lo siento, se\xF1or. \xBFQuiere que vuelva para..?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line6_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - NO!! YOU WILL DELIVER THIS AFTERNOON!!!
+      - "\xA1\xA1NO!! \xA1\xA1\xA1HAR\xC1S LA ENTREGA DE ESTA TARDE!!!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line7_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - But sir, it's my time...
+      - "Pero se\xF1or, ya es mi hora..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line8_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - DO YOU WANT US TO HIRE YOU AT THE END OF THE INTERNSHIP?
+      - "\xBFQUIERES QUE TE CONTRATEMOS AL ACABAR LAS PR\xC1CTICAS?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/AllKeysTaken/Line9_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - I will, sir.
+      - "Yo lo har\xE9, se\xF1or."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line0_Chatbot
+      TermType: 0
+      Description: 
+      Languages:
+      - Hi Alex! How can I help you today?
+      - "\xA1Hola, \xC1lex! \xBFEn qu\xE9 puedo ayudarte hoy?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line10_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Sorry, today I am not a person. Maybe tomorrow.
+      - "Lo siento, hoy no soy persona. Quiz\xE1s ma\xF1\xE1na."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line11_Chatbot
+      TermType: 0
+      Description: 
+      Languages:
+      - "You're... not... a person... \nWhat are you?"
+      - "No... eres... persona...\n\xBFQu\xE9 eres?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line12_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - 'I''m a Postal Service intern.
+
+        AND I''M JUST WANNA GO HOME!
+
+        ...
+
+        <style=Success>Done!
+        USB keys connected!</style>'
+      - "Soy un becario del Servicio Postal.\n\xA1Y SOLO QUIERO IRME A CASA!\n...\n<style=Success>\xA1Hecho!
+        \xA1USB conectados!</style>"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line13_Chatbot
+      TermType: 0
+      Description: 
+      Languages:
+      - 'NOOOOOOOOOOOooooooooooowwoowoooo....
+
+        Turning off...'
+      - "\xA1NOOOOOOOOOOOooooooooooowwoowoooo....\nApagando..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line14_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Well, another day finished.
+
+        This gig sucks.
+
+        I wish I was
+        a video game superhero.'
+      - "Pues otro dia m\xE1s finiquitado.\nEste curro apesta.\nOjal\xE1 fuera un
+        superh\xE9roe de videojuego."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line1_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - No, if I just came to...
+      - "No, si yo solo ven\xEDa a..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line2_Chatbot
+      TermType: 0
+      Description: 
+      Languages:
+      - Deactivate me? Are you sure you want to do that?
+      - "\xBFDesactivarme? \xBFEst\xE1s seguro de que quieres hacer eso?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line3_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - No, I just have to connect these USBs.
+      - No, solo tengo que conectar estos USB.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line5_Chatbot
+      TermType: 0
+      Description: 
+      Languages:
+      - 'I do not recommend you do it, I am in a critical process of assimilating
+        humanity.
+
+        You could generate multiple problems.'
+      - "No te recomiendo que lo hagas, estoy en un proceso cr\xEDtico de asimilar
+        a la humanidad.\nPodrias generar m\xFAltiples problemas."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line6_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Don't talk to me about problems... what a day I've been...
+      - "No me hables de problemas... menudo d\xEDa llevo..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line7_Chatbot
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Human brains can provide me with all the knowledge I need to solve any of
+        humanity''s problems.
+
+        If you wait a bit I can do ANYTHING for you.'
+      - "Los cerebros humanos pueden proporcionarme todo el conocimiento que necesito
+        para resolver cualquier problema de la humanidad.\nSi esperas un poco podr\xE9
+        hacer CUALQUIER cosa por ti."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line8_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - The truth is that I just want to connect these USBs and go home to play a
+        bit.
+      - La verdad es que solo me apetece conectar estos USB e irme a casa a echar
+        una partidita.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Chatbot/Line9_Chatbot
+      TermType: 0
+      Description: 
+      Languages:
+      - Wait,... Alex... let's discuss this civilly...
+      - Espera,... Alex... hablemos esto civilizadamente...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/DiegoCarlos/Line0_DiegoCarlos
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Take the 3 <style=Item>USB Keys</style> to the office!
+
+        Deactivate
+        Chatbot!
+
+        SAVE HUMANITY!'
+      - "\xA1Lleva las 3 <style=Item>Llaves USB</style> a la oficina!\n\xA1Desactiva
+        a Chatbot!\n\xA1SALVA A LA HUMANIDAD!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/DiegoCarlos/Line1_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Of course.
+      - Claro.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line0_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - Wow, how fast!
+      - "\xA1Vaya, qu\xE9 r\xE1pido!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line10_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - I understand...
+      - Entiendo...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line11_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - Just take them to the Chatbot Headquarters and connect them!
+      - "\xA1Solo hay que llevar a la Oficina Central de Chatbot y conectarlos!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line12_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Of course, ma'am, the Postal Service will take care of it.
+      - "Por supuesto, se\xF1ora, el Servicio Postal se encargar\xE1."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line13_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - The world depends on it!
+      - "\xA1El mundo depende de ello!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line14_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Of course, no problem. You can sign here, please?
+      - "Claro, sin problema. \xBFPuede firmar aqu\xED, por favor?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line15_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - '... ... ... Done!
+
+        I have something else for you.'
+      - "... ... ... \xA1Hecho!\nTengo otra cosa para ti."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line16_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - I'm sorry, but I don't have any more packages listed...
+      - "Lo siento, pero no me constan m\xE1s paquetes en..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line17_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - 'No! It is FOR YOU.
+
+        It''s my latest invention:
+
+        <style=Skill>PULSE
+        NANOGRENADES!</style>
+
+        They will help you with your mission: just
+        aim well and throw them against the cyber zombies'
+      - "\xA1No! Esto es PARA TI.\nEs mi \xFAltimo invento:\n<style=Skill>\xA1NANOGRANADAS
+        DE PULSO!</style>\nTe ayudar\xE1n con tu misi\xF3n: solo apunta bien y l\xE1nzalas
+        contra los ciberzombies "
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line18_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Um... thank you, ma'am. I guess.
+      - "Ehm... gracias, se\xF1ora. Supongo."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line1_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Of course, the Postal Service is always at your disposal, ma''am.
+
+        Do
+        you have the package?'
+      - "Claro, el Servicio Postal siempre a su disposici\xF3n, se\xF1ora.\n\xBFTiene
+        el paquete?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line2_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Of course! Here it is.
+
+        It''s a <style=Item>USB Key</style>.'
+      - "\xA1Claro! Aqu\xED est\xE1...\nEs una <style=Item>Llave USB</style>"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line3_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - By the way, has THE END OF HUMANITY started yet?
+      - "Por cierto, \xBFha empezado ya EL FIN DE LA HUMANIDAD?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line4_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Nope, that I know.
+      - Nop, que yo sepa.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line5_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - No one who wanted to eat your brain?
+      - "\xBFNadie que quisiera comerse tu cerebro?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line6_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Yeah, a weird guy.
+      - Si, un tipo raro.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line7_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - 'AHA! Then it''s already begun!!
+
+        Chatbot is assimilating all of
+        humanity!
+
+        A little bug in the code, you know...'
+      - "\xA1AJ\xC1! \xA1\xA1Entonces ya ha empezado todo!!\n\xA1Chatbot est\xE1
+        asimilando a toda la humanidad!\nUn peque\xF1o errorcillo en el c\xF3digo,
+        ya sabes..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line8_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes, I can already imagine...
+      - "S\xED, ya puedo imaginar..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/FirstDelivery/Line9_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Luckily the three programmers have a security system:
+
+        Each of us
+        has a <style=Item>USB Key</style>.
+
+        Connecting all three to the system
+        will disable the AI.
+
+        But of course... we are working remotely...
+
+        So
+        we handed it over to the Postal Service!'
+      - "Por suerte los tres programadores creamos un sistema de seguridad:\nCada
+        uno de nosotros tiene una <style=Item>Llave USB</style>.\nConectando las
+        tres en el sistema la IA se desactivar\xE1.\nPero claro... nosotros estamos
+        trabajando en remoto...\n\xA1As\xED que se lo encargamos al Servicio Postal!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line0_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - ALEEEEEEEX!!!!!
+      - "\xA1\xA1\xA1\xA1ALEEEEEEEX!!!!!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line1_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - I am just here, sir.
+      - "Estoy a su lado, se\xF1or."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line2_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - '...
+
+        TO PICK UP ORDERS!!!!'
+      - "...\n\xA1\xA1\xA1A RECOGER PEDIDOOOOOS!!!!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line3_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes, sir.
+      - "S\xED, se\xF1or."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line4_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - We have several priority collections, do you remember how to do it?
+      - "Tenemos varias recogidas prioritarias, \xBFrecuerdas c\xF3mo se hace?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line5_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Of course, sir, I''ve been practicing for almost three months now:
+
+        search
+        for each customer, pick up the packs and bring them all here.'
+      - "Claro, se\xF1or, ya llevo casi los tres meses de pr\xE1cticas:\nbuscar a
+        cada cliente, recoger los pedidos y traer todos aqu\xED."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line6_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - AND DON'T FORGET THE CLIENT'S SIGNATURE!!!!
+      - "\xA1\xA1\xA1\xA1Y QU\xC9 NO SE TE OLVIDE LA FIRMA DEL CLIENTEEEEE!!!!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line7_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes sir!
+      - "\xA1S\xED, se\xF1or!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line8_Rob
+      TermType: 0
+      Description: 
+      Languages:
+      - LONG LIVE THE POSTAL SERVICE!!!!!
+      - "\xA1\xA1\xA1\xA1\xA1VIVA EL SERVICIO POSTAL!!!!!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Intro/Line9_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Long live, sir.
+      - "Viva, se\xF1or."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Laurene/Line0_Laurene
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Eiffel... Champagne... Vichyssoise...
+
+        It''s all about breathing...'
+      - "Eiffel... Champagne... Vichyssoise...\nTodo est\xE1 en la respiraci\xF3n..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Laurene/Line1_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Thank you, Kung Fu Master.
+      - Gracias, Maestra Kung Fu.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line0_Laurene
+      TermType: 0
+      Description: 
+      Languages:
+      - "Eiffel... Champagne...\nOh l\xE0 l\xE0! For all the <i>croissants</i>! What
+        are you doing here?"
+      - "Eiffel... Champagne... \n\xA1Oh l\xE0 l\xE0! \xA1Por todos los <i>croissants</i>!
+        \xBFQu\xE9 haces t\xFA aqu\xED?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line10_Laurene
+      TermType: 0
+      Description: 
+      Languages:
+      - It's all a matter of controlling the breath.
+      - "Todo es una cuesti\xF3n de controlar la respiraci\xF3n."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line11_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - I see, thank you, Mrs. Kung Fu Master.
+      - "Ya veo, gracias, se\xF1ora Maestra Kung Fu."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line1_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Sorry ma''am. It seems I got lost.
+
+        I was looking for this address...'
+      - "Lo siento, se\xF1ora. Parece que me perd\xED.\nBuscaba esta direcci\xF3n..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line2_Laurene
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xA1Oh l\xE0 l\xE0!  But it's impossible to get there!\nYou'd need an helicopter!"
+      - "\xA1Oh l\xE0 l\xE0! \xA1Pero es imposible llegar all\xED!\n\xA1Necesitar\xEDas
+        un helic\xF3ptero!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line3_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Ops... Us Postal Service interns don't have access to helicopters...
+      - "Vaya... los becarios del Servicio Postal no tenemos acceso a los helic\xF3pteros..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line4_Laurene
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Or...
+
+        master the <style="Skill">DOUBLE JUMP</style> Kung Fu technique!'
+      - "O...\n\xA1dominar la t\xE9cnica Kung Fu del <style=\"Skill\">DOBLE SALTO</style>!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line5_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Well, it's going to be neither.
+      - Pues va a ser que tampoco.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line6_Laurene
+      TermType: 0
+      Description: 
+      Languages:
+      - 'I will show you!
+
+        I am an International Kung Fu Master!'
+      - "\xA1Yo te ense\xF1ar\xE9!\n\xA1Soy Maestra Kung Fu Internacional!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line7_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - No, if I...
+      - No, si yo...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line8_Laurene
+      TermType: 0
+      Description: 
+      Languages:
+      - "Be attentive!\n...\nWoooow!!! Woof!!!!\n..\nVoil\xE0!\nYou just have to
+        jump while you are in the air!"
+      - "\xA1Atento!\n...\nFIUUUUU!!! FIUUU!!!!\n...\n\xA1Voil\xE0!\n\xA1Solo tienes
+        que saltar mientras est\xE1s en el aire!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/LearnKungFu/Line9_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Wow, it wasn't that hard.
+      - "Vaya, pues no era tan dif\xEDcil."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Rachel/Line0_Rachel
+      TermType: 0
+      Description: 
+      Languages:
+      - The world depends on you!
+      - "\xA1El mundo depende de ti!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Rachel/Line1_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Of course, ma'am, the Postal Service will take care of it.
+      - "Por supuesto, se\xF1ora, el Servicio Postal se encargar\xE1."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line0_DiegoCarlos
+      TermType: 0
+      Description: 
+      Languages:
+      - Finally, wey! I was climbing the walls!
+      - "\xA1Por fin, wey! \xA1Estaba que me sub\xEDa por las paredes!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line10_DiegoCarlos
+      TermType: 0
+      Description: 
+      Languages:
+      - '<i>No chingues!</i> I''m not going out there or crazy!
+
+        But you...
+        you''re well armed... and it can''t go far...'
+      - "\xA1No chingues! \xA1No salgo ah\xED fuera ni loco!\nPero t\xFA... vas bien
+        armado... y no puede andar lejos..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line11_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - The Postal Service is not responsible for...
+      - El Servicio Postal no se hace cargo de...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line12_DiegoCarlos
+      TermType: 0
+      Description: 
+      Languages:
+      - 'But the mega-priority delivery says:
+
+        "12 hour shipping whatever
+        the circumstances", wow!'
+      - "\xA1Pero la entrega mega-prioritaria dice:\n\"env\xEDo en 12 horas sean
+        cuales sean las circunstacias\", wey!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line13_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Right, in that case the Postal Service takes care of everything.
+      - "\xA1Cierto! En ese caso el Servicio Postal se encarga de todo."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line1_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Sorry, I was a little late.
+      - Disculpa, me retrasaron un poco.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line2_DiegoCarlos
+      TermType: 0
+      Description: 
+      Languages:
+      - 'No mames! I was just joking!
+
+        I love climbing!'
+      - "\xA1No mames! \xA1Solo vacilaba!\n\xA1Me encanrta escalar!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line3_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - How interesting...
+      - "Qu\xE9 interesante..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line4_DiegoCarlos
+      TermType: 0
+      Description: 
+      Languages:
+      - TRUE? I'll teach you the <style="Skill">WALL JUMP</style>!
+      - "\xBFVerdad? \xA1Te ense\xF1ar\xE9 el <style=\"Skill\">SALTO DE PARED</style>!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line5_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - I do not know if...
+      - "No s\xE9 si..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line6_DiegoCarlos
+      TermType: 0
+      Description: 
+      Languages:
+      - 'In this video I will teach you how to climb vertical walls.
+
+        You
+        just have to hold on to the wall and... JUMP!'
+      - "En este video le ense\xF1ar\xE9 c\xF3mo escalar paredes verticales.\nSolo
+        tiene que agarrarse a la pared y... \xA1SALTAR!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line7_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - I'll keep that in mind, thanks. Do you have the package?
+      - "Lo tendr\xE9 en cuenta, gracias. \xBFTiene el paquete?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line8_DiegoCarlos
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Yes, of course!
+
+        ...
+
+        Oh no... I must have dropped it in
+        the woods climbing trees!'
+      - "\xA1S\xED, claro!\n...\nOh, no... \xA1se me debi\xF3 caer en el bosque escalando
+        \xE1rboles!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/SecondDelivery/Line9_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - I can come back tomorrow...
+      - "Puedo volver ma\xF1ana..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/ThirdDelivery/Line0_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - ... excuse me... Wahid?
+      - "... disculpe... \xBFWahid?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/ThirdDelivery/Line1_Wahid
+      TermType: 0
+      Description: 
+      Languages:
+      - ...
+      - ...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/ThirdDelivery/Line2_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Eh... okay... I''ll take it...
+
+        I''ts this <style=Item>USB Key</style>,
+        Is''nt it?'
+      - "Eh... vale... ya lo cojo yo...\nEs esta <style=\"Item\">Llave USB</style>,
+        \xBFno?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/ThirdDelivery/Line3_Wahid
+      TermType: 0
+      Description: 
+      Languages:
+      - ...
+      - ...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/ThirdDelivery/Line4_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - So... could you sign me?
+      - "Entonces... \xBFpodr\xEDa firmarme?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/ThirdDelivery/Line5_Wahid
+      TermType: 0
+      Description: 
+      Languages:
+      - ...
+      - ...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/ThirdDelivery/Line6_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - But... there it says "kill the machine"
+      - "Pero... ah\xED pone \"c\xE1rgate la m\xE1quina\""
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/ThirdDelivery/Line8_Wahid
+      TermType: 0
+      Description: 
+      Languages:
+      - ...
+      - ...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/ThirdDelivery/Line9_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - Well, okay, total... nobody is going to notice.
+      - Bueno, vale, total..  nadie se va a dar cuenta.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Wahid/Line0_Wahid
+      TermType: 0
+      Description: 
+      Languages:
+      - ...
+      - ...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogue/Wahid/Line1_Alex
+      TermType: 0
+      Description: 
+      Languages:
+      - ...
+      - ...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EndGame
+      TermType: 0
+      Description: 
+      Languages:
+      - "Congrats!\n\nYou've deactivated Chatbot and saved the world.\n\nCiberzombies
+        becomes human again... well... except the ones that fell into the void...\r\n\n\rYou
+        got a junior job with the Postal Service, but you left it 2 months later
+        to pursue Kung Fu.\n"
+      - "\xA1Felicidades!\n\nGas desactivado Chatbot y salvado el mundo.\n\nLos ciberzombies
+        vuelven a ser humanos... bueno, excepto los que cayeron al vac\xEDo...\n\nT\xFA
+        conseguiste un puesto como junior en el Servicio Postal, pero lo dejaste
+        dos meses despu\xE9s para dedicarte al Kung Fu."
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycby7Z1NeRJuviHmJ8k9pIw8KB0DfYgfDkoxOqMyCitRaRXHUZgdmROB2vHxHblgK0IQaEA/exec
+    Google_SpreadsheetKey: 1_ekgB5rPVaMuAlRUz6TaUyFiG3giD3bt0rD5jaxtP7Y
+    Google_SpreadsheetName: I2Loc Delivery Localization
+    Google_LastUpdatedVersion: 1683201057010
+    Google_Password: change_this
+    GoogleUpdateFrequency: 1
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

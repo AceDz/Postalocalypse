@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 0900000014000000
+  lastScan: 638199550900149017
+  supportSerializedTypes:
+  - TypeName: TeamTheDream.Delivery.Conversation, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TeamTheDream.Delivery.DialogueLine, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TeamTheDream.Delivery.DialogueLine[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TeamTheDream.DialogueText, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TeamTheDream.Delivery.IPickable, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ITalkable, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TeamTheDream.Delivery.IUnlockable, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TeamTheDream.Delivery.NonPlayerCharacter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Object, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Object, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TeamTheDream.Delivery.UsbKeyItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1

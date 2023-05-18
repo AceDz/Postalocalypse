@@ -1,0 +1,764 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4903655650557324139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1110399728352645133, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_Name
+      value: NPCVariantLaurene 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2220513391775057776, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -622181836, guid: 0b2c06abf2d8eb54a979f6344b9d69a5, type: 3}
+    - target: {fileID: 2220513391775057776, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: _charVoiceClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d3fe686e6d98184489384c2182aa6ef, type: 3}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[0]
+      value: '"path":"_firstConversation","value":{"$id":0,"$type":"TeamTheDream.Delivery.Conversation,
+        Assembly-CSharp","_lines":{"$id":1,"$type":"TeamTheDream.Delivery.DialogueLine[],
+        Assembly-CSharp","$rlength":11,"$rcontent":[{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":2,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line0_Laurene","_context":null,"_textES":"Eiffel...
+        Mantequilla... \n\u00a1Oh l\u00e0 l\u00e0! \u00a1Por todos los <i>croissants</i>!
+        \u00bfQu\u00e9 haces t\u00fa aqu\u00ed?","_textEN":"Eiffel... Butter...\nOh
+        l\u00e0 l\u00e0! For all the <i>croissants</i>! What are you doing here?","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":3,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line1_Alex","_context":null,"_textES":"Lo
+        siento, se\u00f1ora. Parece que me perd\u00ed.\nBuscaba esta direcci\u00f3n...","_textEN":"Sorry
+        ma''am. It seems I got lost.\nI was looking for this address...","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":4,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line2_Laurene","_context":null,"_textES":"\u00a1Oh
+        l\u00e0 l\u00e0! \u00a1Pero es imposible llegar all\u00ed! \u00a1Necesitas
+        un helic\u00f3ptero!","_textEN":"\u00a1Oh l\u00e0 l\u00e0!  But it''s impossible
+        to get there! You need an helicopter!","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":5,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line3_Alex","_context":null,"_textES":"Vaya...
+        los becarios del Servicio Postal no tenemos acceso a los helic\u00f3pteros...","_textEN":"Ups...
+        Us Postal Service interns don''t have access to helicopters...","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":6,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line4_Laurene","_context":null,"_textES":"O...
+        \u00a1dominar la t\u00e9cnica Kung Fu del DOBLE SALTO!","_textEN":"Or...
+        master the DOUBLE JUMP Kung Fu technique!","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":7,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line5_Alex","_context":null,"_textES":"Pues
+        va a ser que tampoco.","_textEN":"Well, it''s going to be neither.","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":8,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line6_Laurene","_context":null,"_textES":"\u00a1Yo
+        te ense\u00f1ar\u00e9! \u00a1Soy Maestra Kung Fu Internacional!","_textEN":"I
+        will show you! I am an International Kung Fu Master!","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":9,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line7_Alex","_context":null,"_textES":"No,
+        si yo...","_textEN":"No, if I...","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":10,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line8_Laurene","_context":null,"_textES":"\u00a1Atento!\n...\n...\nFIUUUUU!!!
+        FIUUU!!!!\n..\nVoil\u00e0!","_textEN":"Be attentive!\n...\n...\nWoooow!!!
+        Woof!!!!\n..\nVoil\u00e0!","_newTerm":null},"_unlockable":$eref:2},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":11,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line9_Alex","_context":null,"_textES":"Vaya,
+        pues no era tan dif\u00edcil.","_textEN":"Wow, it wasn''t that hard.","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":12,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line10_Laurene","_context":null,"_textES":"Todo
+        es una cuesti\u00f3n de controlar la respiraci\u00f3n.","_textEN":"It''s
+        all a matter of controlling the breath.","_newTerm":null},"_unlockable":null}]}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[1]
+      value: '"path":"_firstConversation._lines","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine[],
+        Assembly-CSharp","$rlength":11,"$rcontent":[{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":1,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line0_Laurene","_context":null,"_textES":"Eiffel...
+        Mantequilla... \n\u00a1Oh l\u00e0 l\u00e0! \u00a1Por todos los <i>croissants</i>!
+        \u00bfQu\u00e9 haces t\u00fa aqu\u00ed?","_textEN":"Eiffel... Butter...\nOh
+        l\u00e0 l\u00e0! For all the <i>croissants</i>! What are you doing here?","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":2,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line1_Alex","_context":null,"_textES":"Lo
+        siento, se\u00f1ora. Parece que me perd\u00ed.\nBuscaba esta direcci\u00f3n...","_textEN":"Sorry
+        ma''am. It seems I got lost.\nI was looking for this address...","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":3,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line2_Laurene","_context":null,"_textES":"\u00a1Oh
+        l\u00e0 l\u00e0! \u00a1Pero es imposible llegar all\u00ed! \u00a1Necesitas
+        un helic\u00f3ptero!","_textEN":"\u00a1Oh l\u00e0 l\u00e0!  But it''s impossible
+        to get there! You need an helicopter!","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":4,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line3_Alex","_context":null,"_textES":"Vaya...
+        los becarios del Servicio Postal no tenemos acceso a los helic\u00f3pteros...","_textEN":"Ups...
+        Us Postal Service interns don''t have access to helicopters...","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":5,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line4_Laurene","_context":null,"_textES":"O...
+        \u00a1dominar la t\u00e9cnica Kung Fu del DOBLE SALTO!","_textEN":"Or...
+        master the DOUBLE JUMP Kung Fu technique!","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":6,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line5_Alex","_context":null,"_textES":"Pues
+        va a ser que tampoco.","_textEN":"Well, it''s going to be neither.","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":7,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line6_Laurene","_context":null,"_textES":"\u00a1Yo
+        te ense\u00f1ar\u00e9! \u00a1Soy Maestra Kung Fu Internacional!","_textEN":"I
+        will show you! I am an International Kung Fu Master!","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":8,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line7_Alex","_context":null,"_textES":"No,
+        si yo...","_textEN":"No, if I...","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":9,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line8_Laurene","_context":null,"_textES":"\u00a1Atento!\n...\n...\nFIUUUUU!!!
+        FIUUU!!!!\n..\nVoil\u00e0!","_textEN":"Be attentive!\n...\n...\nWoooow!!!
+        Woof!!!!\n..\nVoil\u00e0!","_newTerm":null},"_unlockable":$eref:2},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":10,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line9_Alex","_context":null,"_textES":"Vaya,
+        pues no era tan dif\u00edcil.","_textEN":"Wow, it wasn''t that hard.","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":11,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line10_Laurene","_context":null,"_textES":"Todo
+        es una cuesti\u00f3n de controlar la respiraci\u00f3n.","_textEN":"It''s
+        all a matter of controlling the breath.","_newTerm":null},"_unlockable":null}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"_firstConversation._lines.[0]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[3]
+      value: '"path":"_firstConversation._lines.[0]._speaker","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[4]
+      value: '"path":"_firstConversation._lines.[0]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line0_Laurene","_context":null,"_textES":"Eiffel...
+        Mantequilla... \n\u00a1Oh l\u00e0 l\u00e0! \u00a1Por todos los <i>croissants</i>!
+        \u00bfQu\u00e9 haces t\u00fa aqu\u00ed?","_textEN":"Eiffel... Butter...\nOh
+        l\u00e0 l\u00e0! For all the <i>croissants</i>! What are you doing here?","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[5]
+      value: '"path":"_firstConversation._lines.[0]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[6]
+      value: '"path":"_firstConversation._lines.[0]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line0_Laurene"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[7]
+      value: '"path":"_firstConversation._lines.[0]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","Eiffel... Butter...\nOh l\u00e0 l\u00e0! For all the <i>croissants</i>!
+        What are you doing here?"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[8]
+      value: '"path":"_firstConversation._lines.[0]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","Eiffel... Mantequilla... \n\u00a1Oh l\u00e0 l\u00e0! \u00a1Por
+        todos los <i>croissants</i>! \u00bfQu\u00e9 haces t\u00fa aqu\u00ed?"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[9]
+      value: '"path":"_firstConversation._lines.[0]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.ReferencedUnityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[10]
+      value: '"path":"_firstConversation._lines.[1]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[11]
+      value: '"path":"_firstConversation._lines.[1]._speaker","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[12]
+      value: '"path":"_firstConversation._lines.[1]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line1_Alex","_context":null,"_textES":"Lo
+        siento, se\u00f1ora. Parece que me perd\u00ed.\nBuscaba esta direcci\u00f3n...","_textEN":"Sorry
+        ma''am. It seems I got lost.\nI was looking for this address...","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[13]
+      value: '"path":"_firstConversation._lines.[1]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[14]
+      value: '"path":"_firstConversation._lines.[1]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line1_Alex"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[15]
+      value: '"path":"_firstConversation._lines.[1]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","Sorry ma''am. It seems I got lost.\nI was looking for this address..."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[16]
+      value: '"path":"_firstConversation._lines.[1]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","Lo siento, se\u00f1ora. Parece que me perd\u00ed.\nBuscaba esta
+        direcci\u00f3n..."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[17]
+      value: '"path":"_firstConversation._lines.[1]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[18]
+      value: '"path":"_firstConversation._lines.[10]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[19]
+      value: '"path":"_firstConversation._lines.[10]._speaker","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[20]
+      value: '"path":"_firstConversation._lines.[10]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line10_Laurene","_context":null,"_textES":"Todo
+        es una cuesti\u00f3n de controlar la respiraci\u00f3n.","_textEN":"It''s
+        all a matter of controlling the breath.","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[21]
+      value: '"path":"_firstConversation._lines.[10]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[22]
+      value: '"path":"_firstConversation._lines.[10]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line10_Laurene"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[23]
+      value: '"path":"_firstConversation._lines.[10]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","It''s all a matter of controlling the breath."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[24]
+      value: '"path":"_firstConversation._lines.[10]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","Todo es una cuesti\u00f3n de controlar la respiraci\u00f3n."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[25]
+      value: '"path":"_firstConversation._lines.[10]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[26]
+      value: '"path":"_firstConversation._lines.[2]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[27]
+      value: '"path":"_firstConversation._lines.[2]._speaker","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[28]
+      value: '"path":"_firstConversation._lines.[2]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line2_Laurene","_context":null,"_textES":"\u00a1Oh
+        l\u00e0 l\u00e0! \u00a1Pero es imposible llegar all\u00ed! \u00a1Necesitas
+        un helic\u00f3ptero!","_textEN":"\u00a1Oh l\u00e0 l\u00e0!  But it''s impossible
+        to get there! You need an helicopter!","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[29]
+      value: '"path":"_firstConversation._lines.[2]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[30]
+      value: '"path":"_firstConversation._lines.[2]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line2_Laurene"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[31]
+      value: '"path":"_firstConversation._lines.[2]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","\u00a1Oh l\u00e0 l\u00e0!  But it''s impossible to get there!
+        You need an helicopter!"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[32]
+      value: '"path":"_firstConversation._lines.[2]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","\u00a1Oh l\u00e0 l\u00e0! \u00a1Pero es imposible llegar all\u00ed!
+        \u00a1Necesitas un helic\u00f3ptero!"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[33]
+      value: '"path":"_firstConversation._lines.[2]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[34]
+      value: '"path":"_firstConversation._lines.[3]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[35]
+      value: '"path":"_firstConversation._lines.[3]._speaker","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[36]
+      value: '"path":"_firstConversation._lines.[3]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line3_Alex","_context":null,"_textES":"Vaya...
+        los becarios del Servicio Postal no tenemos acceso a los helic\u00f3pteros...","_textEN":"Ups...
+        Us Postal Service interns don''t have access to helicopters...","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[37]
+      value: '"path":"_firstConversation._lines.[3]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[38]
+      value: '"path":"_firstConversation._lines.[3]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line3_Alex"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[39]
+      value: '"path":"_firstConversation._lines.[3]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","Ups... Us Postal Service interns don''t have access to helicopters..."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[40]
+      value: '"path":"_firstConversation._lines.[3]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","Vaya... los becarios del Servicio Postal no tenemos acceso a los
+        helic\u00f3pteros..."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[41]
+      value: '"path":"_firstConversation._lines.[3]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[42]
+      value: '"path":"_firstConversation._lines.[4]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[43]
+      value: '"path":"_firstConversation._lines.[4]._speaker","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[44]
+      value: '"path":"_firstConversation._lines.[4]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line4_Laurene","_context":null,"_textES":"O...
+        \u00a1dominar la t\u00e9cnica Kung Fu del DOBLE SALTO!","_textEN":"Or...
+        master the DOUBLE JUMP Kung Fu technique!","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[45]
+      value: '"path":"_firstConversation._lines.[4]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[46]
+      value: '"path":"_firstConversation._lines.[4]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line4_Laurene"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[47]
+      value: '"path":"_firstConversation._lines.[4]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","Or... master the DOUBLE JUMP Kung Fu technique!"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[48]
+      value: '"path":"_firstConversation._lines.[4]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","O... \u00a1dominar la t\u00e9cnica Kung Fu del DOBLE SALTO!"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[49]
+      value: '"path":"_firstConversation._lines.[4]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[50]
+      value: '"path":"_firstConversation._lines.[5]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[51]
+      value: '"path":"_firstConversation._lines.[5]._speaker","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[52]
+      value: '"path":"_firstConversation._lines.[5]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line5_Alex","_context":null,"_textES":"Pues
+        va a ser que tampoco.","_textEN":"Well, it''s going to be neither.","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[53]
+      value: '"path":"_firstConversation._lines.[5]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[54]
+      value: '"path":"_firstConversation._lines.[5]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line5_Alex"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[55]
+      value: '"path":"_firstConversation._lines.[5]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","Well, it''s going to be neither."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[56]
+      value: '"path":"_firstConversation._lines.[5]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","Pues va a ser que tampoco."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[57]
+      value: '"path":"_firstConversation._lines.[5]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[58]
+      value: '"path":"_firstConversation._lines.[6]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[59]
+      value: '"path":"_firstConversation._lines.[6]._speaker","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[60]
+      value: '"path":"_firstConversation._lines.[6]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line6_Laurene","_context":null,"_textES":"\u00a1Yo
+        te ense\u00f1ar\u00e9! \u00a1Soy Maestra Kung Fu Internacional!","_textEN":"I
+        will show you! I am an International Kung Fu Master!","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[61]
+      value: '"path":"_firstConversation._lines.[6]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[62]
+      value: '"path":"_firstConversation._lines.[6]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line6_Laurene"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[63]
+      value: '"path":"_firstConversation._lines.[6]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","I will show you! I am an International Kung Fu Master!"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[64]
+      value: '"path":"_firstConversation._lines.[6]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","\u00a1Yo te ense\u00f1ar\u00e9! \u00a1Soy Maestra Kung Fu Internacional!"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[65]
+      value: '"path":"_firstConversation._lines.[6]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[66]
+      value: '"path":"_firstConversation._lines.[7]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[67]
+      value: '"path":"_firstConversation._lines.[7]._speaker","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[68]
+      value: '"path":"_firstConversation._lines.[7]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line7_Alex","_context":null,"_textES":"No,
+        si yo...","_textEN":"No, if I...","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[69]
+      value: '"path":"_firstConversation._lines.[7]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[70]
+      value: '"path":"_firstConversation._lines.[7]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line7_Alex"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[71]
+      value: '"path":"_firstConversation._lines.[7]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","No, if I..."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[72]
+      value: '"path":"_firstConversation._lines.[7]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","No, si yo..."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[73]
+      value: '"path":"_firstConversation._lines.[7]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[74]
+      value: '"path":"_firstConversation._lines.[8]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[75]
+      value: '"path":"_firstConversation._lines.[8]._speaker","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[76]
+      value: '"path":"_firstConversation._lines.[8]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line8_Laurene","_context":null,"_textES":"\u00a1Atento!\n...\n...\nFIUUUUU!!!
+        FIUUU!!!!\n..\nVoil\u00e0!","_textEN":"Be attentive!\n...\n...\nWoooow!!!
+        Woof!!!!\n..\nVoil\u00e0!","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[77]
+      value: '"path":"_firstConversation._lines.[8]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[78]
+      value: '"path":"_firstConversation._lines.[8]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line8_Laurene"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[79]
+      value: '"path":"_firstConversation._lines.[8]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","Be attentive!\n...\n...\nWoooow!!! Woof!!!!\n..\nVoil\u00e0!"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[80]
+      value: '"path":"_firstConversation._lines.[8]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","\u00a1Atento!\n...\n...\nFIUUUUU!!! FIUUU!!!!\n..\nVoil\u00e0!"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[81]
+      value: '"path":"_firstConversation._lines.[8]._unlockable","value":$eref:2'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[82]
+      value: '"path":"_firstConversation._lines.[9]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[83]
+      value: '"path":"_firstConversation._lines.[9]._speaker","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[84]
+      value: '"path":"_firstConversation._lines.[9]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/LearnKungFu/Line9_Alex","_context":null,"_textES":"Vaya,
+        pues no era tan dif\u00edcil.","_textEN":"Wow, it wasn''t that hard.","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[85]
+      value: '"path":"_firstConversation._lines.[9]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[86]
+      value: '"path":"_firstConversation._lines.[9]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/LearnKungFu/Line9_Alex"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[87]
+      value: '"path":"_firstConversation._lines.[9]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","Wow, it wasn''t that hard."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[88]
+      value: '"path":"_firstConversation._lines.[9]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","Vaya, pues no era tan dif\u00edcil."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[89]
+      value: '"path":"_firstConversation._lines.[9]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[90]
+      value: '"path":"_foreverConversation","value":{"$id":0,"$type":"TeamTheDream.Delivery.Conversation,
+        Assembly-CSharp","_lines":{"$id":1,"$type":"TeamTheDream.Delivery.DialogueLine[],
+        Assembly-CSharp","$rlength":2,"$rcontent":[{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":2,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/Laurene/Line0_Laurene","_context":null,"_textES":"Eiffel...
+        Mantequilla... Vichyssoise...\nTodo est\u00e1 en la respiraci\u00f3n...","_textEN":"Eiffel...
+        Butter... Vichyssoise...\nIt''s all about breathing...","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":3,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/Laurene/Line1_Alex","_context":null,"_textES":"Gracias,
+        Maestra Kung Fu.","_textEN":"Thank you, Kung Fu Master.","_newTerm":null},"_unlockable":null}]}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[91]
+      value: '"path":"_foreverConversation._lines","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine[],
+        Assembly-CSharp","$rlength":2,"$rcontent":[{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:0,"_text":{"$id":1,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/Laurene/Line0_Laurene","_context":null,"_textES":"Eiffel...
+        Mantequilla... Vichyssoise...\nTodo est\u00e1 en la respiraci\u00f3n...","_textEN":"Eiffel...
+        Butter... Vichyssoise...\nIt''s all about breathing...","_newTerm":null},"_unlockable":null},{"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":$eref:1,"_text":{"$id":2,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/Laurene/Line1_Alex","_context":null,"_textES":"Gracias,
+        Maestra Kung Fu.","_textEN":"Thank you, Kung Fu Master.","_newTerm":null},"_unlockable":null}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[92]
+      value: '"path":"_foreverConversation._lines.[0]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[93]
+      value: '"path":"_foreverConversation._lines.[0]._speaker","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[94]
+      value: '"path":"_foreverConversation._lines.[0]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/Laurene/Line0_Laurene","_context":null,"_textES":"Eiffel...
+        Mantequilla... Vichyssoise...\nTodo est\u00e1 en la respiraci\u00f3n...","_textEN":"Eiffel...
+        Butter... Vichyssoise...\nIt''s all about breathing...","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[95]
+      value: '"path":"_foreverConversation._lines.[0]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[96]
+      value: '"path":"_foreverConversation._lines.[0]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/Laurene/Line0_Laurene"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[97]
+      value: '"path":"_foreverConversation._lines.[0]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","Eiffel... Butter... Vichyssoise...\nIt''s all about breathing..."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[98]
+      value: '"path":"_foreverConversation._lines.[0]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","Eiffel... Mantequilla... Vichyssoise...\nTodo est\u00e1 en la
+        respiraci\u00f3n..."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[99]
+      value: '"path":"_foreverConversation._lines.[0]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[100]
+      value: '"path":"_foreverConversation._lines.[1]","value":{"$id":0,"$type":"TeamTheDream.Delivery.DialogueLine,
+        Assembly-CSharp","_speaker":null,"_text":null,"_unlockable":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[101]
+      value: '"path":"_foreverConversation._lines.[1]._speaker","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[102]
+      value: '"path":"_foreverConversation._lines.[1]._text","value":{"$id":0,"$type":"TeamTheDream.DialogueText,
+        Assembly-CSharp","_term":"Dialogue/Laurene/Line1_Alex","_context":null,"_textES":"Gracias,
+        Maestra Kung Fu.","_textEN":"Thank you, Kung Fu Master.","_newTerm":null}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[103]
+      value: '"path":"_foreverConversation._lines.[1]._text._newTerm","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[104]
+      value: '"path":"_foreverConversation._lines.[1]._text._term","value":{"$id":0,"$type":"System.String,
+        mscorlib","Dialogue/Laurene/Line1_Alex"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[105]
+      value: '"path":"_foreverConversation._lines.[1]._text._textEN","value":{"$id":0,"$type":"System.String,
+        mscorlib","Thank you, Kung Fu Master."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[106]
+      value: '"path":"_foreverConversation._lines.[1]._text._textES","value":{"$id":0,"$type":"System.String,
+        mscorlib","Gracias, Maestra Kung Fu."}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[107]
+      value: '"path":"_foreverConversation._lines.[1]._unlockable","value":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.ReferencedUnityObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 8616356012330309973}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.ReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 70f1a261f058acd4cb414974ad958b1f, type: 2}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.ReferencedUnityObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: dd55ef1413295c147b1feade5ae27dcc, type: 2}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 7170565319170564802, guid: 6ef7b72e7a176cd4caad832183dd21fc, type: 3}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 70f1a261f058acd4cb414974ad958b1f, type: 2}
+    - target: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: dd55ef1413295c147b1feade5ae27dcc, type: 2}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301922227283610898, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885748717874656073, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 8618c290260aa54499739dd9ebd1da10, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+--- !u!114 &8616356012330309973 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3719475149778563646, guid: c94241a002b98214caae733dfc3c1831, type: 3}
+  m_PrefabInstance: {fileID: 4903655650557324139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e6aa273b6b49ac93a43659e2c5152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
