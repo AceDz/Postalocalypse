@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c56dad5517d6a89409a4e100f52e2b6f, type: 3}
   m_Name: FireSystemSkill
   m_EditorClassIdentifier: 
-  _skillUnlocked: 1
+  _skillUnlocked: 0
